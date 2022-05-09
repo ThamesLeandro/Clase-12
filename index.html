@@ -10,10 +10,163 @@
     <link rel="stylesheet" href="main.css">
     <title>Nuevo</title>
 </head>
+
 <body>
 
- 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://dummyimage.com/50x50/000/fff" alt="icono marca">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+
+    <header class="d-flex flex-wrap   justify-content-around">
+        <div>
+            <h1>Leandro Thames estudiante</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam adipisci vel maxime neque enim dolor
+                odit quisquam quo aspernatur quia voluptatem, similique numquam eaque non pariatur dolorum? Laboriosam,
+                iste repellendus?</p>
+            <button type="button" class="btn btn-dark">Llamame</button>
+        </div>
+        <img class="w-100" src="https://dummyimage.com/400x500/000/fff" alt="">
+    </header>
+
+
+    <main class="container">
+        <section class="intro row">
+            <div class="col-12">
+                <h3>Intro quien soy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consectetur libero soluta, ratione,
+                    adipisci temporibus repellendus assumenda inventore ipsa rem incidunt esse illum fugiat laudantium
+                    consequuntur voluptates. Eius, a veritatis?</p>
+            </div>
+        </section>
+        <section class="about  row">
+            <div class="col-sm-12 col-md-6">
+                <h3>About me</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis similique at eveniet aperiam
+                    dolorum? Ad odio neque animi, ullam tempora fugit itaque iste voluptates facere quia. Quos culpa
+                    inventore harum.</p>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="https://dummyimage.com/400x500/000/fff" alt="">
+            </div>
+        </section>
+        <section class="portfolio row">
+            <div class="col-12">
+                <h5>Listado de portfolio</h5>
+                <div class="corousel-portfolio">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://dummyimage.com/100x50/000/fff" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://dummyimage.com/100x50/000/fff" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://dummyimage.com/100x50/000/fff" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact row">
+            <div class="col-6">
+                <h5>Contactame</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <ul>
+                    <li>
+                        <a href="">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="">Instagram</a>
+                    </li>
+                    <li>
+                        <a href="">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+<div class="aside">
+    <ul>
+        <li>
+            <img src="https://dummyimage.com/50x50/000/fff" alt="">
+            <P>Descripcion</P>
+        </li>
+        <li>
+            <img src="https://dummyimage.com/50x50/000/fff" alt="">
+            <P>Descripcion</P>
+        </li>
+        <li>
+            <img src="https://dummyimage.com/50x50/000/fff" alt="">
+            <P>Descripcion</P>
+        </li>
+    </ul>
+</div>
+
+    <footer>
+
+
+    </footer>
 
 
 
